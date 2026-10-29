@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tamil Nadu // 360° Heritage — An immersive digital journey through the ancient lands, living temples, and timeless traditions of Tamil Nadu's 38 districts." />
+  <meta name="keywords" content="Tamil Nadu, Heritage, Districts, Travel, Culture, Temples, History" />
+  <meta property="og:title" content="Tamil Nadu // 360° Heritage" />
+  <meta property="og:description" content="Explore 38 districts of Tamil Nadu through an immersive, luxury digital experience." />
+  <meta property="og:type" content="website" />
+  <title>Tamil Nadu // 360° Heritage — Immersive District Explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/css/main.css" />
+</head>
+<body>
+
+  <!-- Noise texture overlay for premium film grain -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Fixed HUD Bar -->
+  <header id="hud" role="banner"></header>
+
+  <!-- Atlas Drawer Overlay -->
+  <div class="atlas-overlay" id="atlas-overlay" role="presentation"></div>
+
+  <!-- Atlas Drawer -->
+  <aside id="atlas-drawer" role="complementary" aria-label="District Atlas"></aside>
+
+  <!-- Full-Page Immersive Heritage & Culture Portal (Sandstone & Temple Gold) -->
+  <div class="heritage-portal-view" id="heritage-modal-overlay" role="dialog" aria-modal="true" aria-label="Tamil Nadu Heritage & Culture Archives">
+    <div class="hp-header-bar">
+      <div class="hp-brand-tag">
+        <svg class="hp-gopuram-mini" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 2L10 6H14L12 2Z" fill="#FF9E2C"/>
+          <path d="M8 7H16L17 11H7L8 7Z" stroke="#D4AF37" stroke-width="1.2" fill="rgba(212,175,55,0.2)"/>
+          <path d="M6 12H18L19 17H5L6 12Z" stroke="#D4AF37" stroke-width="1.2" fill="rgba(212,175,55,0.2)"/>
+          <path d="M4 18H20V22H4V18Z" stroke="#D4AF37" stroke-width="1.2" fill="#D4AF37"/>
+        </svg>
+        <div class="hp-title-group">
+          <span class="hp-kicker">TAMIL NADU ARCHIVES</span>
+          <span class="hp-subkicker">CIVILIZATION & SACRED HERITAGE</span>
+        </div>
+      </div>
+
+      <nav class="hp-nav-tabs" role="tablist">
+        <button class="hp-tab-btn active" id="hm-tab-histories" role="tab" aria-selected="true" data-tab="histories">
+          <span class="tab-index">01</span>
+          <span class="tab-label">HISTORIES // 4 DYNASTIES</span>
+        </button>
+        <button class="hp-tab-btn" id="hm-tab-culture" role="tab" aria-selected="false" data-tab="culture">
+          <span class="tab-index">02</span>
+          <span class="tab-label">CULTURE // ARTS & SANGAM</span>
+        </button>
+      </nav>
+
+      <button class="hp-close-btn" id="hm-close-btn" aria-label="Return to Map View">
+        <span>RETURN TO MAP</span>
+        <span class="hp-esc-tag">[ ESC ]</span>
+        <span class="hp-close-cross">✕</span>
+      </button>
+    </div>
+
+    <!-- Scrollable Editorial Stage Container -->
+    <div class="hp-stage-scroll" id="hm-content-scroll" role="tabpanel">
+      <!-- Injected via JavaScript -->
+    </div>
+  </div>
+
+  <!-- Inside-District Scroll Camera Walkthrough (FORMA Luxury Architectural Experience) -->
+  <div id="district-walkthrough" class="district-walkthrough" aria-hidden="true">
+    <!-- Pinned 100vw x 100vh Stage -->
+    <div class="dw-stage-wrapper" id="dw-stage-wrapper">
+      <div class="dw-stage" id="dw-stage">
+        <!-- 3D Camera WebGL Canvas -->
+        <canvas id="dw-canvas"></canvas>
+
+        <!-- Architectural Doorway Vignette Frame -->
+        <div class="dw-architectural-frame" aria-hidden="true">
+          <div class="dw-corner dw-corner-tl"></div>
+          <div class="dw-corner dw-corner-tr"></div>
+          <div class="dw-corner dw-corner-bl"></div>
+          <div class="dw-corner dw-corner-br"></div>
+          <div class="dw-vignette-overlay"></div>
+          <div class="dw-aperture-ambient"></div>
+        </div>
+
+        <!-- Synchronized FORMA Editorial Typography Overlays (Lower-left safe zone) -->
+        <div class="dw-typography-safezone" id="dw-typography-safezone"></div>
+
+        <!-- Inside-District HUD: Top Bar -->
+        <div class="dw-hud-top">
+          <button class="dw-btn-back" id="dw-btn-back" aria-label="Back to Tamil Nadu Map">
+            <span class="dw-back-arrow">←</span>
+            <span class="dw-back-label">BACK TO TAMIL NADU MAP</span>
+          </button>
+          <div class="dw-hud-district-info" id="dw-hud-district-info">
+            <span class="dw-district-name" id="dw-info-name">COIMBATORE</span>
+            <span class="dw-district-sep">/</span>
+            <span class="dw-district-tamil" id="dw-info-tamil">கோயம்புத்தூர்</span>
+            <span class="dw-district-sep">·</span>
+            <span class="dw-district-coords" id="dw-info-coords">11.0168° N, 76.9558° E</span>
+          </div>
+        </div>
+
+        <!-- Vertical Progress Indicator (Stops 01 — 04) -->
+        <div class="dw-progress-nav" id="dw-progress-nav" role="navigation" aria-label="Walkthrough Waypoints">
+          <div class="dw-progress-track">
+            <div class="dw-progress-bar" id="dw-progress-bar"></div>
+          </div>
+          <div class="dw-stops-list" id="dw-stops-list"></div>
+        </div>
+
+        <!-- Stop 04 Next District Portal Button -->
+        <div class="dw-portal-container" id="dw-portal-container">
+          <p class="dw-portal-kicker">WAYPOINT 04 REACHED // CONTINUE JOURNEY</p>
+          <button class="dw-portal-btn" id="dw-portal-btn">
+            <span class="dw-portal-label">NEXT DISTRICT</span>
+            <span class="dw-portal-title" id="dw-portal-target-name">MADURAI →</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 500vh Scroll Track for Lenis & GSAP ScrollTrigger (scrub: 1.2) -->
+    <div class="dw-scroll-track" id="dw-scroll-track"></div>
+  </div>
+
+  <!-- District Detail View (Fallback summary) -->
+  <div id="district-view" role="main" aria-label="District Detail"></div>
+
+  <!-- Main page content (Long-form landing page with natural vertical scroll) -->
+  <main id="main-content">
+    <!-- Hero / Landing with 3D map -->
+    <section id="hero" aria-label="Interactive Tamil Nadu Map"></section>
+
+    <!-- Rich Histories Section (4 Imperial Dynasties: Chola, Pandya, Chera, Pallava) -->
+    <section id="histories-section" class="landing-rich-section" aria-label="Ancient Tamil Dynasties"></section>
+
+    <!-- Rich Culture Section (Classical Arts & Sangam Traditions) -->
+    <section id="culture-section" class="landing-rich-section" aria-label="Tamil Classical Arts & Traditions"></section>
+
+    <!-- Statistics Strip -->
+    <section id="stats-strip" aria-label="Heritage Statistics"></section>
+
+    <!-- Active Districts Grid -->
+    <section id="districts-section" aria-label="Phase I Districts"></section>
+
+    <!-- Gold divider -->
+    <div class="gold-divider" aria-hidden="true"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="site-footer" role="contentinfo"></footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

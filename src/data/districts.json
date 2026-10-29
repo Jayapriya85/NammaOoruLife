@@ -1,0 +1,605 @@
+{
+  "regions": [
+    {
+      "id": "kongu",
+      "name": "Kongu Nadu",
+      "color": "#D4AF37",
+      "districts": [
+        {
+          "id": "coimbatore",
+          "name": "Coimbatore",
+          "tamil": "கோயம்புத்தூர்",
+          "active": true,
+          "badge": null,
+          "coords": { "lat": 11.0168, "lng": 76.9558, "x": 0.18, "y": 0.35 },
+          "tagline": "Manchester of South India",
+          "description": "A city of industrial prowess nestled at the foot of the Nilgiris, where textile traditions meet modern innovation beneath the watchful Vellingiri hills.",
+          "places": [
+            {
+              "id": "place-1",
+              "name": "Marudamalai Temple",
+              "kicker": "01 // VELLIANGIRI FOOTHILLS",
+              "title": "THE SACRED RIDGEWAY",
+              "desc": "Where seventh-century Dravidian granite spires survey the mist-veiled Western Ghats.",
+              "type": "Temple",
+              "thumb": "/assets/coimbatore/place-1.jpg"
+            },
+            {
+              "id": "place-2",
+              "name": "VOC Park & Zoo",
+              "kicker": "02 // BOTANICAL ENCLAVE",
+              "title": "THE URBAN ARBORETUM",
+              "desc": "Centuries-old banyans cast dappled shade across the historic zoological grounds of Kongu.",
+              "type": "Nature",
+              "thumb": "/assets/coimbatore/place-2.jpg"
+            },
+            {
+              "id": "place-3",
+              "name": "Gedee Car Museum",
+              "kicker": "03 // GD NAIDU HERITAGE",
+              "title": "THE PIONEERING ARCHIVE",
+              "desc": "An extraordinary pantheon of vintage machines celebrating visionary Tamil engineering.",
+              "type": "Museum",
+              "thumb": "/assets/coimbatore/place-3.jpg"
+            },
+            {
+              "id": "place-4",
+              "name": "Kovai Kutralam Falls",
+              "kicker": "04 // SIRUVANI VALLEY",
+              "title": "THE PRISMATIC CASCADE",
+              "desc": "Cascading mountain streams flowing with mineral sweetness through untouched deciduous canopy.",
+              "type": "Waterfall",
+              "thumb": "/assets/coimbatore/place-4.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tiruppur",
+          "name": "Tiruppur",
+          "tamil": "திருப்பூர்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 11.1085, "lng": 77.3411, "x": 0.21, "y": 0.33 },
+          "tagline": "Knitwear Capital of India",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "erode",
+          "name": "Erode",
+          "tamil": "ஈரோடு",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 11.3410, "lng": 77.7172, "x": 0.25, "y": 0.30 },
+          "tagline": "Textile City of South India",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "nilgiris",
+          "name": "The Nilgiris",
+          "tamil": "நீலகிரி",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 11.4064, "lng": 76.6932, "x": 0.16, "y": 0.29 },
+          "tagline": "Blue Mountain District",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "dharmapuri",
+          "name": "Dharmapuri",
+          "tamil": "தர்மபுரி",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 12.1357, "lng": 78.1602, "x": 0.29, "y": 0.22 },
+          "tagline": "Land of Jackfruit",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "krishnagiri",
+          "name": "Krishnagiri",
+          "tamil": "கிருஷ்ணகிரி",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 12.5186, "lng": 78.2137, "x": 0.30, "y": 0.17 },
+          "tagline": "Mango District",
+          "description": "",
+          "places": []
+        }
+      ]
+    },
+    {
+      "id": "pandya",
+      "name": "Pandya Nadu",
+      "color": "#C49A2A",
+      "districts": [
+        {
+          "id": "madurai",
+          "name": "Madurai",
+          "tamil": "மதுரை",
+          "active": true,
+          "badge": null,
+          "coords": { "lat": 9.9252, "lng": 78.1198, "x": 0.30, "y": 0.60 },
+          "tagline": "Temple City of South India",
+          "description": "The eternal city of the Pandya Kings — where the magnificent Meenakshi Amman temple rises with 14 towering gopurams, and jasmine perfumes the ancient streets at dawn.",
+          "places": [
+            {
+              "id": "place-1",
+              "name": "Meenakshi Amman Temple",
+              "kicker": "01 // MEENAKSHI AMMAN",
+              "title": "THE SACRED GIGAWATT",
+              "desc": "Fourteen colossal gopurams encrusted with thirty-three thousand sculptured deities.",
+              "type": "Temple",
+              "thumb": "/assets/madurai/place-1.jpg"
+            },
+            {
+              "id": "place-2",
+              "name": "Thirumalai Nayakkar Palace",
+              "kicker": "02 // THIRUMALAI NAYAKKAR",
+              "title": "THE INDO-SARACENIC DOME",
+              "desc": "Towering stucco arches and celestial halls echoing seventeenth-century royal drama.",
+              "type": "Palace",
+              "thumb": "/assets/madurai/place-2.jpg"
+            },
+            {
+              "id": "place-3",
+              "name": "Gandhi Museum",
+              "kicker": "03 // TAMUKKAM PALACE",
+              "title": "THE PEACE MEMORIAL",
+              "desc": "A tranquil seventeenth-century summer retreat preserved in quiet reverence to the Mahatma.",
+              "type": "Museum",
+              "thumb": "/assets/madurai/place-3.jpg"
+            },
+            {
+              "id": "place-4",
+              "name": "Vandiyur Mariamman Teppakulam",
+              "kicker": "04 // TEPPAKULAM RESERVOIR",
+              "title": "THE REFLECTIVE BASIN",
+              "desc": "A majestic thousand-foot square tank with a central Mandapam floating beneath azure skies.",
+              "type": "Heritage",
+              "thumb": "/assets/madurai/place-4.jpg"
+            }
+          ]
+        },
+        {
+          "id": "theni",
+          "name": "Theni",
+          "tamil": "தேனி",
+          "active": true,
+          "badge": null,
+          "coords": { "lat": 10.0104, "lng": 77.4768, "x": 0.22, "y": 0.58 },
+          "tagline": "Gateway to the Western Ghats",
+          "description": "A verdant district where spice-laden hillscapes meet the ancient Vaigai rivers source — home to Meghamalais cloud forests and the Cardamom Hills terraced gardens.",
+          "places": [
+            {
+              "id": "place-1",
+              "name": "Meghamalai",
+              "kicker": "01 // MEGHAMALAI CREST",
+              "title": "THE CLOUD KINGDOM",
+              "desc": "Endless rolling emerald tea terraces carved into mist-draped cardamom highlands.",
+              "type": "Nature",
+              "thumb": "/assets/theni/place-1.jpg"
+            },
+            {
+              "id": "place-2",
+              "name": "Vaigai Dam",
+              "kicker": "02 // VAIGAI BASIN",
+              "title": "THE LIFELINE RESERVOIR",
+              "desc": "A grand mid-century stone barrage orchestrating the seasonal rhythm of southern agriculture.",
+              "type": "Engineering",
+              "thumb": "/assets/theni/place-2.jpg"
+            },
+            {
+              "id": "place-3",
+              "name": "Kolukkumalai Tea Estate",
+              "kicker": "03 // KOLUKKUMALAI PEAK",
+              "title": "THE WORLD ROOFTOP",
+              "desc": "Among the highest organic tea estates on Earth, kissed by dawn above a sea of clouds.",
+              "type": "Plantation",
+              "thumb": "/assets/theni/place-3.jpg"
+            },
+            {
+              "id": "place-4",
+              "name": "Suruli Waterfalls",
+              "kicker": "04 // SURULI FALLS",
+              "title": "THE TWO-STAGE DELUGE",
+              "desc": "Sacred mountain waters plunging into deep stone hollows revered in ancient Tamil epics.",
+              "type": "Waterfall",
+              "thumb": "/assets/theni/place-4.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tirunelveli",
+          "name": "Tirunelveli",
+          "tamil": "திருநெல்வேலி",
+          "active": true,
+          "badge": null,
+          "coords": { "lat": 8.7139, "lng": 77.7567, "x": 0.26, "y": 0.78 },
+          "tagline": "City of Halwa & Legends",
+          "description": "Where the Tamirabarani river flows through ancient temple towns — celebrated for its legendary wheat halwa, Nellaiappar temples musical pillars, and the warrior spirit of Veerapandiya Kattabomman.",
+          "places": [
+            {
+              "id": "place-1",
+              "name": "Nellaiappar Temple",
+              "kicker": "01 // SWAMY NELLAIAPPAR",
+              "title": "THE RESONANT TEMPLE",
+              "desc": "Monolithic musical pillars carved from single granite boulders that sing in tonal octaves.",
+              "type": "Temple",
+              "thumb": "/assets/tirunelveli/place-1.jpg"
+            },
+            {
+              "id": "place-2",
+              "name": "Krishnapuram Palace",
+              "kicker": "02 // KRISHNAPURAM SHRINE",
+              "title": "THE LIVING CHISEL",
+              "desc": "Hyper-intricate stone effigies representing the absolute zenith of late Nayak dynastic art.",
+              "type": "Palace",
+              "thumb": "/assets/tirunelveli/place-2.jpg"
+            },
+            {
+              "id": "place-3",
+              "name": "Manimuthar Waterfalls",
+              "kicker": "03 // MANIMUTHAR FALLS",
+              "title": "THE CANOPY CATARACT",
+              "desc": "Roaring crystalline waters cascading over granite shelves into pristine forest pools.",
+              "type": "Waterfall",
+              "thumb": "/assets/tirunelveli/place-3.jpg"
+            },
+            {
+              "id": "place-4",
+              "name": "Papanasam Dam",
+              "kicker": "04 // PAPANASAM DAM",
+              "title": "THE FOOTHILL BARRAGE",
+              "desc": "Where the holy Tamirabarani river emerges from wild tiger sanctuaries into fertile plains.",
+              "type": "Engineering",
+              "thumb": "/assets/tirunelveli/place-4.jpg"
+            }
+          ]
+        },
+        {
+          "id": "virudhunagar",
+          "name": "Virudhunagar",
+          "tamil": "விருதுநகர்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 9.5810, "lng": 77.9624, "x": 0.28, "y": 0.65 },
+          "tagline": "City of Fireworks",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "thoothukudi",
+          "name": "Thoothukudi",
+          "tamil": "தூத்துக்குடி",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 8.7642, "lng": 78.1348, "x": 0.31, "y": 0.77 },
+          "tagline": "Pearl City",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "kanyakumari",
+          "name": "Kanyakumari",
+          "tamil": "கன்னியாகுமரி",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 8.0883, "lng": 77.5385, "x": 0.23, "y": 0.86 },
+          "tagline": "Lands End",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "ramanathapuram",
+          "name": "Ramanathapuram",
+          "tamil": "இராமநாதபுரம்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 9.3639, "lng": 78.8395, "x": 0.37, "y": 0.68 },
+          "tagline": "Land of Rameswaram",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "sivaganga",
+          "name": "Sivaganga",
+          "tamil": "சிவகங்கை",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 9.8483, "lng": 78.4802, "x": 0.34, "y": 0.61 },
+          "tagline": "Queen Velu Nachiyars Land",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "dindigul",
+          "name": "Dindigul",
+          "tamil": "டிண்டுக்கல்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 10.3624, "lng": 77.9695, "x": 0.28, "y": 0.54 },
+          "tagline": "City of Locks",
+          "description": "",
+          "places": []
+        }
+      ]
+    },
+    {
+      "id": "chola",
+      "name": "Chola Nadu",
+      "color": "#B8843A",
+      "districts": [
+        {
+          "id": "thanjavur",
+          "name": "Thanjavur",
+          "tamil": "தஞ்சாவூர்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 10.7870, "lng": 79.1378, "x": 0.39, "y": 0.46 },
+          "tagline": "Rice Bowl of Tamil Nadu",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "trichy",
+          "name": "Tiruchirappalli",
+          "tamil": "திருச்சிராப்பள்ளி",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 10.7905, "lng": 78.7047, "x": 0.35, "y": 0.46 },
+          "tagline": "City of the Rock Fort",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "nagapattinam",
+          "name": "Nagapattinam",
+          "tamil": "நாகப்பட்டினம்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 10.7672, "lng": 79.8420, "x": 0.44, "y": 0.46 },
+          "tagline": "Ancient Port City",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "tiruvarur",
+          "name": "Tiruvarur",
+          "tamil": "திருவாரூர்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 10.7714, "lng": 79.6367, "x": 0.42, "y": 0.46 },
+          "tagline": "Temple Town",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "pudukkottai",
+          "name": "Pudukkottai",
+          "tamil": "புதுக்கோட்டை",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 10.3797, "lng": 78.8201, "x": 0.37, "y": 0.52 },
+          "tagline": "Land of Caves",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "ariyalur",
+          "name": "Ariyalur",
+          "tamil": "அரியலூர்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 11.1402, "lng": 79.0786, "x": 0.38, "y": 0.40 },
+          "tagline": "Fossil District",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "perambalur",
+          "name": "Perambalur",
+          "tamil": "பெரம்பலூர்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 11.2332, "lng": 78.8800, "x": 0.37, "y": 0.38 },
+          "tagline": "Central District",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "mayiladuthurai",
+          "name": "Mayiladuthurai",
+          "tamil": "மயிலாடுதுறை",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 11.1015, "lng": 79.6529, "x": 0.42, "y": 0.42 },
+          "tagline": "Cranes Abode",
+          "description": "",
+          "places": []
+        }
+      ]
+    },
+    {
+      "id": "thondai",
+      "name": "Thondai Nadu",
+      "color": "#A07840",
+      "districts": [
+        {
+          "id": "chennai",
+          "name": "Chennai",
+          "tamil": "சென்னை",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 13.0827, "lng": 80.2707, "x": 0.47, "y": 0.15 },
+          "tagline": "Gateway of the South",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "kanchipuram",
+          "name": "Kanchipuram",
+          "tamil": "காஞ்சிபுரம்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 12.8342, "lng": 79.7036, "x": 0.43, "y": 0.18 },
+          "tagline": "City of Thousand Temples",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "vellore",
+          "name": "Vellore",
+          "tamil": "வேலூர்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 12.9165, "lng": 79.1325, "x": 0.39, "y": 0.17 },
+          "tagline": "Fort City",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "tiruvannamalai",
+          "name": "Tiruvannamalai",
+          "tamil": "திருவண்ணாமலை",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 12.2253, "lng": 79.0747, "x": 0.38, "y": 0.22 },
+          "tagline": "Sacred Fire Hill",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "villupuram",
+          "name": "Villupuram",
+          "tamil": "விழுப்புரம்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 11.9401, "lng": 79.4861, "x": 0.42, "y": 0.25 },
+          "tagline": "Gateway to Puducherry",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "kallakurichi",
+          "name": "Kallakurichi",
+          "tamil": "கள்ளக்குறிச்சி",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 11.7381, "lng": 78.9593, "x": 0.38, "y": 0.27 },
+          "tagline": "New District",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "cuddalore",
+          "name": "Cuddalore",
+          "tamil": "கடலூர்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 11.7480, "lng": 79.7714, "x": 0.44, "y": 0.27 },
+          "tagline": "Coastal Heritage City",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "chengalpattu",
+          "name": "Chengalpattu",
+          "tamil": "செங்கல்பட்டு",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 12.6924, "lng": 79.9764, "x": 0.45, "y": 0.19 },
+          "tagline": "Industrial Corridor",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "ranipet",
+          "name": "Ranipet",
+          "tamil": "ராணிப்பேட்டை",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 12.9229, "lng": 79.3320, "x": 0.40, "y": 0.17 },
+          "tagline": "Leather City",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "tirupattur",
+          "name": "Tirupattur",
+          "tamil": "திருப்பத்தூர்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 12.4950, "lng": 78.5631, "x": 0.34, "y": 0.19 },
+          "tagline": "Eastern Ghats Gateway",
+          "description": "",
+          "places": []
+        }
+      ]
+    },
+    {
+      "id": "southern_hills",
+      "name": "Southern Hills",
+      "color": "#8B6914",
+      "districts": [
+        {
+          "id": "salem",
+          "name": "Salem",
+          "tamil": "சேலம்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 11.6643, "lng": 78.1460, "x": 0.29, "y": 0.28 },
+          "tagline": "Steel City",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "namakkal",
+          "name": "Namakkal",
+          "tamil": "நாமக்கல்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 11.2189, "lng": 78.1674, "x": 0.29, "y": 0.34 },
+          "tagline": "Fort on a Rock",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "karur",
+          "name": "Karur",
+          "tamil": "கரூர்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 10.9601, "lng": 78.0766, "x": 0.28, "y": 0.42 },
+          "tagline": "Textile Town",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "tenkasi",
+          "name": "Tenkasi",
+          "tamil": "தென்காசி",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 8.9596, "lng": 77.3152, "x": 0.21, "y": 0.74 },
+          "tagline": "Waterfall District",
+          "description": "",
+          "places": []
+        },
+        {
+          "id": "chengam",
+          "name": "Tirukoilur",
+          "tamil": "திருக்கோயிலூர்",
+          "active": false,
+          "badge": "Coming Soon",
+          "coords": { "lat": 11.9689, "lng": 79.2012, "x": 0.40, "y": 0.24 },
+          "tagline": "Land of Ancient Temples",
+          "description": "",
+          "places": []
+        }
+      ]
+    }
+  ]
+}
